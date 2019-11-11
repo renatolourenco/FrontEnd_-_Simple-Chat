@@ -1,0 +1,12 @@
+button {
+    border-radius: 50px;
+    height: 70px;
+    left: 70%;
+    position: absolute;
+    top: 80%;
+    width: 70px;
+}
+
+i {
+    vertical-align: middle;
+}
