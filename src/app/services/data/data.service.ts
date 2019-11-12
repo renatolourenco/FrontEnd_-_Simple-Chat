@@ -32,7 +32,9 @@ export class DataService {
   }
 
   public destroyComp() {
-    this.compToDestroy.destroy();
+    if (this.compToDestroy) {
+      this.compToDestroy.destroy();
+    }
   }
 
   public sendMessageToWatson(msg: Object, contextAppend?: any) {
